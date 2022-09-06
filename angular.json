@@ -96,6 +96,102 @@
           }
         }
       }
+    },
+    "green-button-poc": {
+      "projectType": "library",
+      "root": "projects/green-button-poc",
+      "sourceRoot": "projects/green-button-poc/src",
+      "prefix": "gbpoc",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/green-button-poc/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/green-button-poc/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/green-button-poc/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/green-button-poc/src/test.ts",
+            "tsConfig": "projects/green-button-poc/tsconfig.spec.json",
+            "karmaConfig": "projects/green-button-poc/karma.conf.js"
+          }
+        }
+      }
+    },
+    "spinner-poc": {
+      "projectType": "library",
+      "root": "projects/spinner-poc",
+      "sourceRoot": "projects/spinner-poc/src",
+      "prefix": "gbpoc",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/spinner-poc/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/spinner-poc/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/spinner-poc/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/spinner-poc/src/test.ts",
+            "tsConfig": "projects/spinner-poc/tsconfig.spec.json",
+            "karmaConfig": "projects/spinner-poc/karma.conf.js"
+          }
+        }
+      }
+    },
+    "jonna-spinner-poc": {
+      "projectType": "library",
+      "root": "projects/jonna-spinner-poc",
+      "sourceRoot": "projects/jonna-spinner-poc/src",
+      "prefix": "gbpoc",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/jonna-spinner-poc/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/jonna-spinner-poc/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/jonna-spinner-poc/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/jonna-spinner-poc/src/test.ts",
+            "tsConfig": "projects/jonna-spinner-poc/tsconfig.spec.json",
+            "karmaConfig": "projects/jonna-spinner-poc/karma.conf.js"
+          }
+        }
+      }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

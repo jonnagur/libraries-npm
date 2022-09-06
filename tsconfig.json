@@ -7,6 +7,15 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
+    "paths": {
+      "green-button-poc": [
+        "dist/green-button-poc",
+        "dist/spinner-poc"
+      ],
+      "jonna-spinner-poc": [
+        "dist/jonna-spinner-poc"
+      ]
+    },
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
