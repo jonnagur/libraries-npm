@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Prueba de concepto de un componente",
   "keywords": [],
-  "homepage": "https://gitlab.com/bosonit-hre/fenix/fenix-commons-frontend",
+  "homepage": "git@github.com:jonnagur/libraries-npm.git",
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0"
